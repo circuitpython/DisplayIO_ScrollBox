@@ -3,21 +3,27 @@
 
 # Example demonstrating the CircuitPython ScrollBox widget for vertical scrolling of text.
 
-import board
 import math
 import time
+import board
 import terminalio
-
 import displayio_scrollbox
 
 display = board.DISPLAY
 
-text_string = "CircuitPython is a programming language designed to simplify experimenting and learning to code on low-cost microcontroller boards."
-text_string = text_string + (
-    "\n\nWith CircuitPython, there are no upfront desktop downloads needed. Once you get your board set up, open any text editor, and start editing code. It's that simple."
+text_string = (
+    "CircuitPython is a programming language designed to simplify experimenting and "
 )
-# text_string = text_string+("\n\nCreate a file, edit your code, save the file, and it runs immediately. There is no compiling or uploading needed.")
-# text_string = text_string+("\n\nCircuitPython is designed with education in mind. It's an easy way to start learning how to code and you get immediate feedback from the board.")
+text_string = text_string + "learning to code on low-cost microcontroller boards."
+text_string = (
+    text_string
+    + "\n\nWith CircuitPython, there are no upfront desktop downloads needed."
+)
+text_string = (
+    text_string
+    + " Once you get your board set up, open any text editor, and start editing code. "
+)
+text_string = text_string + "It's that simple."
 
 ## Base example uses the builtin monospace font: terminalio.FONT
 font = terminalio.FONT
