@@ -1,0 +1,12 @@
+# SPDX-FileCopyrightText: 2017 Scott Shawcroft, written for Adafruit Industries
+# SPDX-FileCopyrightText: Copyright (c) 2022 Kevin Matocha (kmatch98) for CircuitPython Organization
+#
+# SPDX-License-Identifier: MIT
+
+Adafruit-Blinka
+adafruit_bitmap_font
+adafruit_display_text
+adafruit_displayio_layout
+displayio
+fontio
+terminalio
